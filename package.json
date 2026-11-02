@@ -1,0 +1,12 @@
+{
+  "name": "fastify-cookie-standalone-repro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "repro:parse": "node parse.cjs",
+    "repro:serialize": "node serialize.cjs"
+  },
+  "dependencies": {
+    "@fastify/cookie": "11.1.5"
+  }
+}
